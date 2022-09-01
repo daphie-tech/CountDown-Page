@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    font-size: 20px;
+}
+ .comingsoon{
+    background:rgba(0, 0, 0, 0.7) url(./office-skyscrapers-business-district_107420-95733.webp);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    color: white;
+    height: 100%; 
+}
+.container{
+    text-align: center;
+    margin: auto;
+}
+.content{
+    margin: auto;
+    max-width: 760px;
+    padding: 24px 0px;
+}
+.logo{
+    margin: 12px 0px;
+}
+.logo a{
+    font-size: 40px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.logo a span{
+    color:white;
+    border: 2px solid gold;
+
+}
+.hero{
+    margin:10px 0px;
+}
+h2{
+    color: gray;
+    padding: 10px 0px;
+}
+.hero span{
+color:lime;
+font-size: 100;
+}
+.content h1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+font-weight: bold; 
+margin-top: 10px; 
+color: ;  
+}
+.content p{
+    padding:10px;
+}
+
+form{
+    margin: 10px 0px;
+}
+form input{
+    background:white;
+    color:gray;
+    font-family: 19px;
+    border: 2px solid blue;
+    outline: none;
+border-radius: 4px;
+width: 70%;
+padding:20px;
+}
+.form input[type="submit"]{
+    width: 120px;
+    background: #fA5807;
+    color: aliceblue;
+    cursor: pointer;
+}
+.form input:hover[type="submit"]{
+transition:1.0s ease;
+background:red;
+padding:10px;
+}
+.countdowntimer{
+    margin:20px 0px;
+}
+.timeritem{
+    display: inline-block;
+    margin:5px 3px;
+    font-size:50px;
+    border-radius:5px;
+    font-weight:bolder;
+    background: #fA5807;
+    padding:20px;
+}
+.timeritem span{
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+@media screen and (max-width:500px){
+    .logo{
+        margin-bottom: 50px;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .content p{
+        line-height: 23px;
+        margin: 10px 0px;
+    }
+    .form input[type="email"]{
+        width:100%
+    }
+}
